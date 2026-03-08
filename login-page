@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ <style>
+    .main{
+    width:1000px;
+    height: 500px;
+      box-shadow:0px 0px 10px rgb(60, 103, 133) ;
+}
+ #container{
+    width:400px;
+    padding:21px;
+    text-align: center;
+   
+    border-radius: 7px ;
+    background-color: white;
+      margin:100px auto;  
+    
+
+}
+div{
+      margin:100px auto;  
+     text-align:center;
+      box-shadow:0px 0px 10px rgb(133, 60, 60) ;
+      width:500px;
+      height: 400px;
+      margin-top: 100px;
+       position:relative;
+     top: 40px;
+}
+ #btn{
+        background-color: rgb(47, 194, 47);
+        color: beige;
+        border-radius: 7px;
+        padding:14px;
+        border:none;
+        font-size:20px;
+        font-weight: bold;
+        width:422px;
+       border:none;
+        
+    }
+    #btn:hover{
+        background-color: rgb(11, 108, 11);
+    }
+   
+input{
+        width:400px;
+        padding:10px;
+        font-size:23px;
+        border-radius:4px;
+
+    }
+    label{
+        font:24px;
+        letter-spacing: 1px;
+        margin-left: -300px;
+    }
+   
+#label2{
+    margin-left: -335px;
+}
+    #loginbtn{
+        width:209px;
+        padding:10px;
+        border: none;
+        background-color: aliceblue;
+    }
+    #loginbtn:hover{
+        background-color: blueviolet;
+        color: wheat;
+    }
+    #signupbtn{
+        width:209px;
+        padding:13px;
+        border: none;
+        background-color: aliceblue;
+        font: 200;
+
+    }
+     #signupbtn:hover{
+        background-color: blueviolet;
+        color: wheat;
+        font: 200;
+    }
+
+
+ </style>
+</head>
+<body>
+    <div class="main">
+    <div class="container">
+    <form action="">
+   <button id="loginbtn">Login</button>
+   <button id="signupbtn">Signup</button><br><br>
+    <label for="">Email Address</label><br><br>
+     <input type="password" name="password"><br><br>
+
+    <label for="" id="label2">Password</label><br><br>
+    <input type="password"  name="password"><br><br>
+    <button id="btn">Login</button>
+    
+    </form>
+    </div>
+    </div>
+    
+</body>
+</html>
